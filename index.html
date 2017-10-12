@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>The Scramble Game</title>
+	<link rel="stylesheet" href="stylesheet.css">
+	<script src="https://use.fontawesome.com/de050f4e35.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400|Roboto+Slab" rel="stylesheet">
+</head>
+<body>
+<div class="sliderContainer">
+	<section class="header slideShow goAway">
+		<div class="navigation">
+			<div class="menu wrapper">
+				<div class="logo">
+					<h2 class="headerlogoText"> S </h2>
+				</div>
+				<div class="menuLink">
+					<ul>
+						<li class="howToPlay"><a href="#howTo" src="">How to Play</a></li>
+						<li class="selectGame"><a href="#game" src="">The Game</a></li>
+						<li class="makers"><a href="#creators" src="">The Creators</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="title">
+			<h1 class="logo">THE <span class=scramble>SCRAMBLE</span> GAME</h1>
+			<p class="logo">How good do you word?</p>
+		</div>
+	</section>
+	<section class="howTo slideShow goAway" id="howTo">
+		<div class="navigation">
+			<div class="menu wrapper">
+				<div class="logo">
+					<h2 class="headerlogoText"> S </h2>
+				</div>
+				<div class="menuLink">
+					<ul>
+						<li class="howToPlay"><a href="#howTo" src="">How to Play</a></li>
+						<li class="selectGame"><a href="#game" src="">The Game</a></li>
+						<li class="makers"><a href="#creators" src="">The Creators</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- <div class=flexWrap> -->
+		<div class = rulesHeadings>
+			<h2 class="headings wrapper">How To Play</h2>
+			<h2 class="puzzle wrapper"><i class="fa fa-puzzle-piece" aria-hidden="true"></i></h2>
+		</div>
+		<div class="content">
+			<ol class="wrapper">
+				<li><p class="text wrapper">The computer will present you with a scrambled word</p></li>
+				<li><p class="text wrapper">Your goal is to figure out which word got scrambled</p></li>
+				<li><p class="text wrapper">Once you have made your decision, enter it for review</p></li>
+				<li><p class="text wrapper">If you were correct, you will be presented with another word and awared a point. If you were incorrect, you can try again or skip this word for the price of one point</p></li>
+				<li><p class="text wrapper">After your time is up, share your high score with your friends and/or enemies on social media platforms like twitter</p></li>
+			</ol>
+		</div>
+	</section>
+	<section class="game slideShow goAway" id="game">
+		<div class="navigation">
+			<div class="menu wrapper">
+				<div class="logo">
+					<h2 class="headerlogoText"> S </h2>
+				</div>
+				<div class="menuLink">
+					<ul>
+						<li class="howToPlay"><a href="#howTo" src="">How to Play</a></li>
+						<li class="selectGame"><a href="#game" src="">The Game</a></li>
+						<li class="makers"><a href="#creators" src="">The Creators</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper">
+			<div class="background">
+				<h2 class="headings">The Game</h2>
+				<div id="counter">1:00</div>
+				<h6 class="score">Score: <span class="score"></span></h6>
+				<h6 class="finalScore hidden"></h6>
+				<h6 class="emptyGuess hidden"></h6>
+				<h4 class="scrambleWord">
+					<!-- Words will be added to this dynamically -->
+				</h4>
+				<div class="formButton">
+					<div class="flexWrap">
+						<button type="submit" class="go"> Let's Play the Game! </button>
+						<button class="next submit">Next Word!</button>
+					</div>
+					<div class="flexWrap">
+						<form action="">
+							<input class="answer" placeholder="Enter a word!">
+							<button class="submit guess"> Guess </button>
+						</form>
+					</div>
+					<button class="quit submit">Quit</button>
+				</div>
+				<div class="listBackground">
+					<h3> Words you've submitted: </h3>
+					<ul class="submitted">
+						<!--li added dynamically -->
+					</ul>
+					<h3>Correct words:</h3>
+					<ul class="correctWords">
+						<!-- Correct words will be added dynamically -->
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="creators slideShow goAway">
+		<div class="navigation">
+			<div class="menu wrapper">
+				<div class="logo">
+					<h2 class="headerlogoText"> S </h2>
+				</div>
+				<div class="menuLink">
+					<ul>
+						<li class="howToPlay"><a href="#howTo" src="">How to Play</a></li>
+						<li class="selectGame"><a href="#game" src="">The Game</a></li>
+						<li class="makers"><a href="#creators" src="">The Creators</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="creators wrapper">
+			<div class="nav">
+				<img src="./Images/nav.jpg">
+				<h2 class="headings">
+					Nav Pal
+				</h2>
+				<h3 class="headings">
+					Software Developer, B.Sc Computer Science
+				</h3>
+				<h5 class="headings">
+					Toronto, Ontario
+				</h5>
+				<p class="text">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta voluptas fuga suscipit nisi quibusdam debitis eveniet ipsa accusamus nostrum earum quae nihil, aspernatur dicta quis libero commodi recusandae, excepturi deserunt dolores dolore, a dolorem mollitia repellat, eligendi. Iusto, autem molestiae nobis iure tenetur saepe error ipsa fuga ipsum ab, eum!
+				</p>
+				<ul class="social">
+					<li><a href =""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					<li><a href =""><i class="fa fa-github" aria-hidden="true"></i></a></li>
+					<li><a href =""><i class="fa fa-globe" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+			<div class="neil">
+				<img src="./Images/neil.jpg">
+				<h2 class="headings">
+					Neil Morrison
+				</h2>
+				<h3 class="headings">
+					Software Developer, B.Sc Physics
+				</h3>
+				<h5 class="headings">
+					Toronto, Ontario
+				</h5>
+				<p class="text">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores totam illum, libero cum hic placeat esse sequi, pariatur id minus et! Excepturi, suscipit debitis explicabo doloremque eius accusantium eum quod tempora, impedit quaerat quia harum ab! Fuga consectetur, eum deserunt, pariatur blanditiis velit ipsam, nemo distinctio dolorum quibusdam veniam?
+				</p>
+				<ul class="social">
+					<li><a href =""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					<li><a href =""><i class="fa fa-github" aria-hidden="true"></i></a></li>
+					<li><a href =""><i class="fa fa-globe" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section class="candyShop slideShow goAway" id="candyShop">
+		<div class="navigation">
+			<div class="menu wrapper">
+				<div class="logo">
+					<h2 class="headerlogoText"> S </h2>
+				</div>
+				<div class="menuLink">
+					<ul>
+						<li class="howToPlay"><a href="#howTo" src="">How to Play</a></li>
+						<li class="selectGame"><a href="#game" src="">The Game</a></li>
+						<li class="makers"><a href="#creators" src="">The Creators</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="footer">
+		<div class="wrapper">
+			<p class="copyright">
+				<i class="fa fa-copyright" aria-hidden="true"></i> 2017 morrison pal creatives
+			</p>
+		</div>
+	</section>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+	<script src="Scripts/game.js"></script>
+</body>
+</html>
